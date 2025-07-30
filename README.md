@@ -78,11 +78,11 @@ and select **Anthropic Claude Sonnet 4** as the model
 
 1. In Goose, click the **Extensions** tab
 
-[Extensions Tab](images/extensionstab.png)
+![Extensions Tab](images/extensionstab.png)
 
 2. Click **Add Custom Extension**
 
-[Add custom extention](images/addcustomext.png)
+![Add custom extention](images/addcustomext.png)
 
 
 3. Configure the extension with these parameters:
@@ -101,7 +101,7 @@ and select **Anthropic Claude Sonnet 4** as the model
 /Users/YourUsername/anaconda3/envs/alphazero/bin/python /Users/YourUsername/alphazero-mcp/src/alphazero_mcp/server.py
 ```
 
-[GAZ Extension Properties](images/extproperties.png)
+![GAZ Extension Properties](images/extproperties.png)
 
 ### 7. Disable Memory Extension
 
