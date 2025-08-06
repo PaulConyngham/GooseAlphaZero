@@ -5,8 +5,8 @@ from mcp.types import ErrorData, INTERNAL_ERROR, INVALID_PARAMS
 
 mcp = FastMCP("alphazero")
 
-BASE_URL = "http://localhost:5000"
-#BASE_URL = "http://52.9.199.91:8000"
+#BASE_URL = "http://localhost:5000"
+BASE_URL = "http://52.9.199.91:8000"
 
 @mcp.tool()
 def state(user_id: str = "default_user", team_id: str = "") -> dict:
