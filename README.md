@@ -9,10 +9,18 @@ This project provides a custom MCP (Model Context Protocol) extension that integ
 ## Prerequisites
 
 - macOS, Windows, or Linux
-- Python 3.8 or higher
+- Python 3.10 or higher
 - Internet connection for API access
 
-## Installation Instructions
+## Installation Options
+
+### ⚡ Recommended: Using uv (Fast & Modern)
+
+**uv** is a fast Python package installer and environment manager. It's **10-100x faster** than traditional tools and is the recommended method for setting up this project.
+
+👉 **[Quick Start with uv](UV_GETTING_STARTED.md)**
+
+## Installation Instructions (Conda)
 
 ### 1. Install Goose Desktop App
 
@@ -91,14 +99,14 @@ and select **Anthropic Claude Sonnet 4** as the model
 - **Name:** `alphazeroapi`
 - **Type:** `STDIO`
 - **Description:** `AlphaZero Tutor`
-- **Command:** 
+- **Command:**
   ```
-  /path/to/your/python /path/to/alphazero-mcp/src/alphazero_mcp/server.py
+  /path/to/your/python /path/to/alphazero-student/tools/mcp_bridge.py
   ```
 
-**Example Command:**
+**Example Command: **
 ```
-/Users/YourUsername/anaconda3/envs/alphazero/bin/python /Users/YourUsername/alphazero-mcp/src/alphazero_mcp/server.py
+/Users/YourUsername/anaconda3/envs/alphazero/bin/python /Users/YourUsername/GooseAlphaZero/alphazero-student/tools/mcp_bridge.py
 ```
 
 ![GAZ Extension Properties](images/extproperties.png)
