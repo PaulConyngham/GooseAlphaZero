@@ -12,13 +12,17 @@ This project provides a custom MCP (Model Context Protocol) extension that integ
 - Python 3.10 or higher
 - Internet connection for API access
 
-## Installation Options
+## Installation
 
-### ⚡ Recommended: Using uv (Fast & Modern)
+### ⚡ Using uv (Recommended)
 
-**uv** is a fast Python package installer and environment manager. It's **10-100x faster** than traditional tools and is the recommended method for setting up this project.
+**uv** is a fast Python package installer and environment manager. It's **10-100x faster** than traditional tools.
 
-👉 **[Quick Start with uv](UV_GETTING_STARTED.md)**
+👉 **[Complete uv Setup Guide](UV_GETTING_STARTED.md)**
+
+---
+
+### Alternative: Using Conda
 
 ## Installation Instructions (Conda)
 
@@ -99,14 +103,16 @@ and select **Anthropic Claude Sonnet 4** as the model
 - **Name:** `alphazeroapi`
 - **Type:** `STDIO`
 - **Description:** `AlphaZero Tutor`
-- **Command:**
-  ```
-  /path/to/your/python /path/to/alphazero-student/tools/mcp_bridge.py
-  ```
+- **Command:** Get this by running `./get-uvx-command.sh` in your project directory
 
-**Example Command: **
+**Example Command (uv/uvx):**
 ```
-/Users/YourUsername/anaconda3/envs/alphazero/bin/python /Users/YourUsername/GooseAlphaZero/alphazero-student/tools/mcp_bridge.py
+uvx --from /Users/YourUsername/GooseAlphaZero/alphazero-mcp alphazero-mcp
+```
+
+**Example Command (Conda):**
+```
+/Users/YourUsername/anaconda3/envs/alphazero/bin/python /Users/YourUsername/GooseAlphaZero/alphazero-mcp/src/alphazero_mcp/server.py
 ```
 
 ![GAZ Extension Properties](images/extproperties.png)
