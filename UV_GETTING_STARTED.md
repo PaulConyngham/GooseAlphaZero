@@ -35,6 +35,13 @@ uv python install 3.12
 
 ---
 
+## Step 2.1 next run the following command:
+
+```bash
+uv sync
+```
+---
+
 ## Step 3: Run the MCP Server
 
 Get your command and run it:
